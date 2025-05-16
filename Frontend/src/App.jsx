@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
+import './App.css'
+
 function App() {
 
   return (
     <>
-     <p className='text-green ' >hello world</p>
+     
+          <div>
+            <p className='text-red-500'>Hello with tailwind</p>
+          </div>
     </>
   )
 }
