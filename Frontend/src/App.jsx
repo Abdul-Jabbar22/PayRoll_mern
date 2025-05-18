@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 
+
 function App() {
 
   return (
@@ -10,6 +11,7 @@ function App() {
           <div class="bg-green content-center ">
             <p className='text-red-500 '>Hello with tailwind</p>
           </div>
+
     </>
   )
 }

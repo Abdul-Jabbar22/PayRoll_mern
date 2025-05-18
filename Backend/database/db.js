@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
 
-export const dbConnection = () => {
+ const dbConnection = () => {
   mongoose
-    .connect(process.env.MONGO_URI, {
+    .connect("mongodb+srv://abduljabbarray:1234@cluster0.rpfaw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
       dbName: "payroll",
     })
     .then(() => {
@@ -12,3 +12,4 @@ export const dbConnection = () => {
       console.log(`Some Error occured. ${err}`);
     });
 };
+export default dbConnection
