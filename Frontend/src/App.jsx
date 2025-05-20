@@ -8,7 +8,7 @@ function App() {
   return (
     <>
      <Navbar/>
-          <div class="bg-green content-center ">
+          <div className="bg-green content-center ">
             <p className='text-red-500 '>Hello with tailwind</p>
           </div>
 
