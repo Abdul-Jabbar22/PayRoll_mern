@@ -1,5 +1,4 @@
 import manogoose from 'mongoose'
 
 
-const userSchema = new mongoose.Schmeeema()
-
+const userSchema = new mongoose.Schmeeemas
